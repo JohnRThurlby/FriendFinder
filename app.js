@@ -9,7 +9,7 @@ const express = require("express"),
 // Sets up the Express App
 // =============================================================
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
