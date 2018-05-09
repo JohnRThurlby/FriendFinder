@@ -77,7 +77,7 @@ a:hover {
 }
 
 .modal-body{
-	background-image: url(../images/superhero.jpg);
+/*	background-image: url(../images/superhero.jpg);*/
 	background-size: cover;
 	background-position: center;
 }

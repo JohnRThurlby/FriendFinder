@@ -26,7 +26,7 @@ module.exports = function(app){
 		//loop through all of question values and sum total their subtracted absolute values
 		for (var j=0; j<10; j++){
 			// this adds the numerical answers of each friend to the total difference; then uses the absolute value to determine the difference between the two (absolute value is used so that 5-3 and 3-5 both equal 2)
-			totalDifference += Math.abs(herosArray[i].scores[j] - newFriend.scores[j]);
+			totalDifference += Math.abs(herosArray[i].scores[j] - userData.scores[j]);
 		}
 
 		// each total difference, for each potential friend, is pushed into the allDifferences array 

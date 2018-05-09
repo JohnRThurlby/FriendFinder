@@ -55,6 +55,7 @@
           $("#matchImg").attr("src", data.photo);
           // Show the modal with the best match
           $("#resultsModal").modal("toggle");
+          
         });
       }
       else {
