@@ -12,8 +12,12 @@ main {
 }
 
 .container {
-	background-color: rgba(233, 103, 34, 0.9);
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 80%;
+	background-color: rgba(208, 96, 33, .9);
 }
+
 
 .footer {
 	margin-bottom: 5%;
@@ -24,13 +28,35 @@ hr {
 }
 
 h1 {
-	font-size: 500%;
+	color: #fff;
+	margin-left: 5%;
+	margin-bottom: 5%;
 	font-family: 'Francois One', sans-serif;
+	font-size: 600%;
 }
 
 h2 {
-	color: #333;
-	font-style: bold;
+	color: #fff;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 200%;
+}
+
+h3 {
+	color: #fff;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 120%;
+}
+
+h4 {
+	color: #fff;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 100%;
 }
 
 strong {
@@ -56,6 +82,10 @@ a:hover {
 }
 
 .btn-primary {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 150%;
 	color: #fff;
 	background-color: #72a4b2;
 	border-color: #72a4b2;
@@ -80,4 +110,12 @@ a:hover {
 /*	background-image: url(../images/superhero.jpg);*/
 	background-size: cover;
 	background-position: center;
+}
+
+.card {
+	color: #fff;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 200%;
 }

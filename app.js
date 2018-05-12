@@ -1,5 +1,6 @@
 // Written by John R. Thurlby May 2018
 
+
 // Dependencies
 // =============================================================
 const express = require("express"),
@@ -18,7 +19,7 @@ app.use(express.static(path.join(__dirname, './app/public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-//ROUTER
+//ROUTING
 require('./app/routing/apiRoutes.js')(app); 
 require('./app/routing/htmlRoutes.js')(app);
 
