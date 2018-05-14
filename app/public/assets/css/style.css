@@ -37,7 +37,7 @@ h1 {
 
 h2 {
 	color: #fff;
-	margin-left: 15%;
+	margin-left: 2%;
 	margin-bottom: 5%;
 	font-family: 'Francois One', sans-serif;
 	font-size: 200%;
@@ -55,6 +55,12 @@ h4 {
 	color: #fff;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 100%;
+}
+
+p {
+	color: black;
 	font-family: 'Francois One', sans-serif;
 	font-size: 100%;
 }
@@ -96,8 +102,9 @@ a:hover {
 	border-color: #83a9b4;
 }
 
-.chosen-container ul.chosen-results li.highlighted {
+.result-selected .chosen-select .chosen-container ul.chosen-results li.highlighted {
   background-color: #72a4b2;
+  color: black;
   background-image: none;
 }
 
@@ -112,10 +119,17 @@ a:hover {
 	background-position: center;
 }
 
-.card {
-	color: #fff;
+.footer-primary {
 	margin-left: 10%;
-	margin-top: 5%;
 	font-family: 'Francois One', sans-serif;
-	font-size: 200%;
+	font-size: 150%;
+	color: #fff;
+}
+
+.footer-copy {
+	margin-top: 2%;
+	margin-left: 15%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 100%;
+	color: #fff;
 }

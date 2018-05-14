@@ -53,8 +53,8 @@
         $.post(currentURL + "/api/heroes", userData, function(data) {
           // Grab the result from the AJAX post so that the best superhero match's name and photo are displayed.
           $("#matchName").text(data.name);
-          $("#matchAbilities").text(data.abilities);
           $("#matchImg").attr("src", data.photo);
+          $("#matchAbilities").text(data.abilities);
           // Show the modal with the best match
           $("#resultsModal").modal("toggle");
           

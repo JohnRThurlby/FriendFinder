@@ -16,7 +16,6 @@ body {
 
 .jumbotron h1 {
 	color: #fff;
-	margin-left: 5%;
 	margin-bottom: 10%;
 	font-family: 'Francois One', sans-serif;
 	font-size: 600%;
@@ -24,8 +23,8 @@ body {
 
 .jumbotron h2 {
 	color: #fff;
-	margin-left: 15%;
-	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%;
 	font-family: 'Francois One', sans-serif;
 	font-size: 200%;
 }
@@ -37,14 +36,6 @@ body {
 h2 {
 	color: #fff;
 	font-style: bold;
-}
-
-.card {
-	color: #fff;
-	margin-left: 10%;
-	margin-top: 5%;
-	font-family: 'Francois One', sans-serif;
-	font-size: 200%;
 }
 
 a {
@@ -61,8 +52,8 @@ a:hover {
 }
 
 .btn-primary {
-	margin-left: 33%;
-	margin-bottom: 10%;
+	margin-left: 27%;
+	margin-bottom: 5%;
 	font-family: 'Francois One', sans-serif;
 	font-size: 200%;
 	color: #fff;
@@ -78,4 +69,19 @@ a:hover {
 .button-space {
 	margin-top: 10px;
 	margin-right: 10px;
+}
+
+.footer-primary {
+	margin-left: 5%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 200%;
+	color: #fff;
+}
+
+.footer-copy {
+	margin-top: 2%;
+	margin-left: 15%;
+	font-family: 'Francois One', sans-serif;
+	font-size: 150%;
+	color: #fff;
 }
