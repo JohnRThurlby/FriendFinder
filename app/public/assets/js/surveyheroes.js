@@ -1,5 +1,6 @@
 
   // Chosen CSS
+   
     var config = {
       ".chosen-select": {},
       ".chosen-select-deselect": { allow_single_deselect: true },
@@ -47,16 +48,20 @@
             $("#q10").val()
           ]
         };
+                 
         // Grab the URL of the website
         var currentURL = window.location.origin;
+        
         // AJAX post the data to the heroes API.
         $.post(currentURL + "/api/heroes", userData, function(data) {
+         
           // Grab the result from the AJAX post so that the best superhero match's name and photo are displayed.
           $("#matchName").text(data.name);
           $("#matchImg").attr("src", data.photo);
           $("#matchAbilities").text(data.abilities);
           // Show the modal with the best match
           $("#resultsModal").modal("toggle");
+           
           
         });
       }
